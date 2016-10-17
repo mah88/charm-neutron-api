@@ -338,7 +338,7 @@ class NeutronApiSDNContext(context.SubordinateConfigContext):
             },
             'service-plugins': {
                 'templ_key': 'service_plugins',
-                'value': 'router,firewall,lbaas,vpnaas,metering',
+                'value': 'router,firewall,lbaas,vpnaas,metering,neutron.services.qos.qos_plugin.QoSPlugin',
             },
             'restart-trigger': {
                 'templ_key': 'restart_trigger',
